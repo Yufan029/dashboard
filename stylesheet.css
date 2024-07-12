@@ -154,14 +154,14 @@ input[type="search"]:active {
 
 .main .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 0.5rem;
     row-gap: 2rem;
     margin-top: 1rem;
 }
 
 .main .card {
-    width: 20rem;
+    width: 18rem;
     height: 11.6rem;
     background-color: aliceblue;
     border-left: 8px solid rgb(243, 160, 51);
