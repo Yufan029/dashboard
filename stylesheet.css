@@ -297,6 +297,11 @@ input[type="search"]:active {
     padding: 5px;
     border-radius: 50%;
     justify-self: center;
+    transition: 250ms liner;
+}
+
+.trending img:hover {
+    scale: 1.1;
 }
 
 .tag .personal-info:nth-child(1) img {
